@@ -1,5 +1,18 @@
 <aspectj>
 <aspects>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_JavaBean"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_ToString"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_JavaBean"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.web.RolController_Roo_Controller"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_ToString"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.web.UsuarioController_Roo_Controller"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_Configurable"/>
 </aspects>
 </aspectj>
 

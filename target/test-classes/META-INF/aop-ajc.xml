@@ -1,5 +1,13 @@
 <aspectj>
 <aspects>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolIntegrationTest_Roo_Configurable"/>
 </aspects>
 </aspectj>
 

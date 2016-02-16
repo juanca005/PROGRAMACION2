@@ -29,3 +29,22 @@ web mvc all --package ~.web
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 21:25:42
 security setup
 web mvc all --package ~.web
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Usuario --testAutomatically
+field string --fieldName username
+field string --fieldName password
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Rol --testAutomatically
+field string --fieldName nombre
+focus --class ~.model.Usuario
+field reference --fieldName id_rol --type ~.model.Rol
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 22:53:52
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-16 19:02:34
