@@ -27,3 +27,5 @@ web mvc jquery all
 web mvc all --package ~.web
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 21:22:42
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 21:25:42
+security setup
+web mvc all --package ~.web
