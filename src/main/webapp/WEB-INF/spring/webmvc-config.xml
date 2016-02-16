@@ -72,4 +72,9 @@
       </list>
     </property>
   </bean>
+<bean class="org.gvnix.web.json.Jackson2RequestMappingHandlerAdapter" id="dataBinderRequestMappingHandlerAdapter" p:order="1">
+        <property name="objectMapper">
+            <bean class="org.gvnix.web.json.ConversionServiceObjectMapper"/>
+        </property>
+    </bean>
 </beans>

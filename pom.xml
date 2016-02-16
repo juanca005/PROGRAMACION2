@@ -14,6 +14,8 @@
         <slf4j.version>1.7.5</slf4j.version>
         <spring.version>3.2.9.RELEASE</spring.version>
     <tomcat.version>7.0.63</tomcat.version>
+    <querydsl.version>3.6.5</querydsl.version>
+    <gvnix.version>1.5.0.RELEASE</gvnix.version>
     </properties>
     <repositories>
         <repository>
@@ -30,6 +32,11 @@
             <id>spring-roo-repository</id>
             <name>Spring Roo Repository</name>
             <url>http://spring-roo-repository.springsource.org/release</url>
+        </repository>
+    <repository>
+            <id>gvNIX External Libraries repo</id>
+            <url>http://repository.gvnix.org</url>
+            <name>gvNIX External Libraries repo</name>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -285,6 +292,34 @@
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-jsp</artifactId>
             <version>2.2.2</version>
+        </dependency>
+    <dependency>
+            <groupId>org.gvnix</groupId>
+            <artifactId>org.gvnix.addon.web.mvc.annotations</artifactId>
+            <version>1.5.0.RELEASE</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>com.mysema.querydsl</groupId>
+            <artifactId>querydsl-apt</artifactId>
+            <version>${querydsl.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>com.mysema.querydsl</groupId>
+            <artifactId>querydsl-jpa</artifactId>
+            <version>${querydsl.version}</version>
+        </dependency>
+    <dependency>
+            <groupId>org.gvnix</groupId>
+            <artifactId>org.gvnix.addon.jpa.annotations</artifactId>
+            <version>${gvnix.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>org.gvnix</groupId>
+            <artifactId>org.gvnix.web.json.binding</artifactId>
+            <version>1.5.0.RELEASE</version>
         </dependency>
     </dependencies>
     <build>
