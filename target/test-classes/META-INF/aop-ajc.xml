@@ -1,5 +1,25 @@
 <aspectj>
 <aspects>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.NegocioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ItemIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.NegocioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.UsuarioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.NegocioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.UsuarioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ClienteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ClienteIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.OrdenDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ItemDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.OrdenIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ClienteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ItemIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.OrdenIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ClienteDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.NegocioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.ItemDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.domain.OrdenDataOnDemand_Roo_Configurable"/>
 </aspects>
 </aspectj>
 

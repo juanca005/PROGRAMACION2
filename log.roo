@@ -29,3 +29,46 @@ web mvc all --package ~.web
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 21:25:42
 security setup
 web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-17 12:42:58
+jpa setup --database MYSQL --provider HIBERNATE --databaseName ejemploprog2 --hostName localhost --userName root
+entity jpa --class ~.domain.Usuario --testAutomatically
+field string --fieldName username --notNull --sizeMax 50 --sizeMin 3
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.domain.Item --testAutomatically 
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.domain.Cliente --testAutomatically 
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.domain.Negocio --testAutomatically
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.domain.Orden --testAutomatically
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+web mvc language --code de
+focus --class ~.domain.Negocio
+field set --fieldName items --type ~.domain.Item --cardinality ONE_TO_MANY --mappedBy negocio
+focus --class ~.domain.Item
+field reference --fieldName negocio --type ~.domain.Negocio --notNull
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+focus --class ~.domain.Negocio
+field string --fieldName nya --notNull --sizeMax 20
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+focus --class ~.domain.Cliente
+field string --fieldName nya --notNull --sizeMax 20
+focus --class ~.domain.Item
+field string --fieldName nombre --notNull --sizeMax 30
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+web mvc controller --class ar.edu.um.programacion2.ejemploprog2.web.HomeNegocio --preferredMapping homenegocio
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+focus --class ~.domain.Item
+finder list
+finder add --finderName findItemsByNegocio --class ~.domain.Item
+web mvc finder add --formBackingType ~.domain.Item --class ~.web.ItemController
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+focus --class ~.domain.Negocio
+finder list
+finder list --filter id
+finder list --depth 2
+finder add --finderName findNegociosByNyaEquals
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-18 01:36:25
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-18 10:33:00
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-18 12:20:16
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-18 16:12:57
+remote service class --class ar.edu.um.programacion2.service.ItemsNegocio
+remote service class --class ar.edu.um.programacion2.ejemploprog2.service.ItemsNegocio
