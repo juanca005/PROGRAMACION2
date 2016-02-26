@@ -72,3 +72,63 @@ finder add --finderName findNegociosByNyaEquals
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-18 16:12:57
 remote service class --class ar.edu.um.programacion2.service.ItemsNegocio
 remote service class --class ar.edu.um.programacion2.ejemploprog2.service.ItemsNegocio
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-19 11:39:13
+json add --class ~.domain.Item
+web mvc json add --jsonObject ~.web.ItemController
+json add --class ~.domain.Negocio
+web mvc json add --jsonObject ~.web.NegocioController
+web mvc json all
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-20 21:14:02
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-22 19:28:16
+web mvc bootstrap update
+web mvc jquery all
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-22 23:33:31
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-23 11:40:43
+web mvc jquery update tags
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-24 11:32:14
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-24 11:44:14
+json add --class ~.domain.Cliente
+web mvc json add --jsonObject ~.web.ClienteController
+json add --class ~.domain.Orden
+web mvc json add --jsonObject ~.web.OrdenController
+web mvc json all
+web mvc jquery all
+web mvc jquery update tags
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-25 00:17:13
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 07:53:02
+focus --class ~.domain.Item
+field number --fieldName precio --type float
+field boolean --fieldName estado
+field string --fieldName descripcion
+field file --fieldName foto --contentType JPG
+// [failed] field number --fieldName orden --type int
+// [failed] field number --fieldName orden --type int
+field number --fieldName orden --type int
+web mvc bootstrap update
+web mvc jquery all
+focus --class ~.domain.Negocio
+field string --fieldName email --notNull
+field number --fieldName telefono --type int
+field string --fieldName domicilio --notNull --sizeMax 30
+focus --class ~.domain.Cliente
+field string --fieldName email --notNull --sizeMax 30
+field number --fieldName telefono --type int
+field string --fieldName domicilio --notNull --sizeMax 30
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+web mvc json all
+json add --class ~.domain.Cliente
+json add --class ~.domain.Cliente
+web mvc json add --jsonObject ~.web.ClienteController
+web mvc json all
+web mvc jquery update tags
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 13:52:44
+// [failed] web mvc controller --class ar.edu.um.programacion2.ejemploprog2.web.HomeNegocio --preferredMapping homenegocio
+web mvc controller --class ar.edu.um.programacion2.ejemploprog2.web.HomeCliente --preferredMapping homecliente
+focus --class ~.domain.Cliente
+field set --fieldName ordenes --type ~.domain.Orden --cardinality ONE_TO_MANY --mappedBy cliente
+focus --class ~.domain.Orden
+field reference --fieldName cliente --type ~.domain.Cliente --notNull
+field date --fieldName fecha --type java.util.Date
+field string --fieldName descripcion --notNull --sizeMax 30
+web mvc all --package ar.edu.um.programacion2.ejemploprog2.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-25 22:29:02

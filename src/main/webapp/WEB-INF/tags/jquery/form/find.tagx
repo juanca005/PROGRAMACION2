@@ -15,7 +15,7 @@
   <c:if test="${empty finderNameParam}">
     <c:set var="finderNameParam" value="find" />
   </c:if>
-
+  
   <c:if test="${empty render or render}">
     <!-- DISID: #8617 added support to labelCode -->
     <c:choose>
@@ -30,23 +30,14 @@
     <spring:message arguments="${label}" code="entity_find" var="title_msg" />
     <util:panel id="${id}" title="${title_msg}" openPane="${openPane}">
       <spring:url value="${path}" var="form_url" />
-      <form:form cssClass="form-horizontal" action="${form_url}" method="GET">
+      <form:form action="${form_url}" method="GET">
         <input type="hidden" name="${finderNameParam}" value="${fn:escapeXml(finderName)}" />
         <jsp:doBody />
         <div class="submit" id="${fn:escapeXml(id)}_${fn:escapeXml(finderName)}_submit">
           <spring:message code="button_find" var="find_button" htmlEscape="false" />
-          <input id="proceed" type="submit" class="btn btn-primary btn-block" value="${fn:escapeXml(find_button)}"/>
+          <input id="proceed" type="submit" value="${fn:escapeXml(find_button)}"/>
         </div>
       </form:form>
     </util:panel>
-
-    <!-- DISID: added Bootstrap classes -->
-    <script type="text/javascript">
-	  jQuery(document).ready(function() {
-		  jQuery(".control-label").addClass("col-xs-5 col-sm-4 col-md-3 col-lg-3");
-		  jQuery(".controls").addClass("col-xs-7 col-sm-8 col-md-9 col-lg-9");
-		  jQuery(".controls.datetime").removeClass("col-xs-7 col-sm-8 col-md-9 col-lg-9").addClass("col-xs-7 col-xs-offset2 col-sm-5 col-sm-offset3 col-md-4 col-md-offset5 col-lg-3 col-lg-offset6");
-	  });
-	  </script>
   </c:if>
 </jsp:root>

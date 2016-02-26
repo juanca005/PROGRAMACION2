@@ -21,8 +21,9 @@
       <c:set value="MM/dd/yyyy" var="dateTimePattern" />
     </c:if>
 
-	      <dl class="row dl-horizontal" id="_${fn:escapeXml(id)}_id">
-			<dt><c:choose>
+    <div id="_${fn:escapeXml(id)}_id" class="control-group">
+      <label for="_${fn:escapeXml(field)}_id" class="control-label">
+        <c:choose>
           <c:when test="${empty renderLabel or renderLabel}">
             <c:out value="${fn:escapeXml(label)}" />
             :
@@ -30,29 +31,28 @@
           <c:otherwise>
             &amp;nbsp;
           </c:otherwise>
-        </c:choose></dt>
-			<dd>
-				<p>
-		        <c:choose>
-		          <c:when test="${date}">
-		            <spring:escapeBody>
-		              <fmt:formatDate value="${object[field]}" pattern="${fn:escapeXml(dateTimePattern)}" />
-		            </spring:escapeBody>
-		          </c:when>
-		          <c:when test="${calendar}">
-		            <spring:escapeBody>
-		              <fmt:formatDate value="${object[field].time}" pattern="${fn:escapeXml(dateTimePattern)}" />
-		            </spring:escapeBody>
-		          </c:when>
-		          <c:otherwise>
-		            <spring:eval expression="object[field]" />
-		          </c:otherwise>
-		        </c:choose>
-		        </p>
-	        </dd>
-		</dl>
-
+        </c:choose>
+      </label>
+      <div class="box" id="_${fn:escapeXml(id)}_${fn:escapeXml(field)}_id">
+        <p class="text-info">
+        <c:choose>
+          <c:when test="${date}">
+            <spring:escapeBody>
+              <fmt:formatDate value="${object[field]}" pattern="${fn:escapeXml(dateTimePattern)}" />
+            </spring:escapeBody>
+          </c:when>
+          <c:when test="${calendar}">
+            <spring:escapeBody>
+              <fmt:formatDate value="${object[field].time}" pattern="${fn:escapeXml(dateTimePattern)}" />
+            </spring:escapeBody>
+          </c:when>
+          <c:otherwise>
+            <spring:eval expression="object[field]" />
+          </c:otherwise>
+        </c:choose>
+        </p>
+      </div>
+    </div>
+    <br />
   </c:if>
-
 </jsp:root>
-

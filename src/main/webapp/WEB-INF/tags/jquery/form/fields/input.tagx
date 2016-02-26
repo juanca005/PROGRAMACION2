@@ -66,7 +66,7 @@
       <spring:escapeBody javaScriptEscape="true" >${field}</spring:escapeBody>
     </c:set>
 
-    <div id="_${fn:escapeXml(id)}_id" class="control-group form-group">
+    <div id="_${fn:escapeXml(id)}_id" class="control-group">
       <label for="_${sec_field}_id" class="control-label">
        <c:choose>
           <c:when test="${empty renderLabel or renderLabel}">
@@ -101,7 +101,7 @@
       <div class="controls">
       <c:choose>
         <c:when test="${disableFormBinding}">
-          <input class="form-control input-sm" id="_${sec_field}_id" name="${sec_field}" type="${fn:escapeXml(type)}"
+          <input id="_${sec_field}_id" name="${sec_field}" type="${fn:escapeXml(type)}"
             title="${fn:escapeXml(field_validation)}" data-required="${required}"
             data-invalid="${fn:escapeXml(field_invalid)}" data-missing="${fn:escapeXml(sec_field_required)}"
             data-regex="${validationRegex}" data-minlength="${min}" data-maxlength="${max}"
@@ -110,17 +110,17 @@
         <c:otherwise>
           <c:choose>
             <c:when test="${type eq 'password'}">
-              <form:password class="form-control input-sm" id="_${sec_field}_id" path="${sec_field}" disabled="${disabled}" size="${size}"/>
+              <form:password id="_${sec_field}_id" path="${sec_field}" disabled="${disabled}" size="${size}"/>
             </c:when>
             <c:otherwise>
-              <form:input class="form-control input-sm" id="_${sec_field}_id" path="${sec_field}" disabled="${disabled}"
+              <form:input id="_${sec_field}_id" path="${sec_field}" disabled="${disabled}"
                 title="${field_validation}" data-required="${required}"
                 data-invalid="${field_invalid}" data-missing="${sec_field_required}"
                 data-regex="${validationRegex}" data-minlength="${min}" data-maxlength="${max}"
                 data-mindecimal="${decimalMin}" data-maxdecimal="${decimalMax}" size="${size}" value="${value}"/>
             </c:otherwise>
           </c:choose>
-          <form:errors cssClass="errors alert alert-danger" id="_${sec_field}_error_id" path="${sec_field}" />
+          <form:errors cssClass="errors" id="_${sec_field}_error_id" path="${sec_field}" />
         </c:otherwise>
       </c:choose>
       </div>

@@ -17,7 +17,7 @@
       <spring:message code="label_${fn:toLowerCase(fn:substringAfter(id,'_'))}" var="label" htmlEscape="false" />
     </c:if>
 
-    <div id="_${fn:escapeXml(id)}_id" class="control-group form-group">
+    <div id="_${fn:escapeXml(id)}_id" class="control-group">
       <label for="_${fn:escapeXml(field)}_id" class="control-label">
         <c:choose>
           <c:when test="${empty renderLabel or renderLabel}">
@@ -30,7 +30,7 @@
         </c:choose>
       </label>
       <div class="controls">
-      <p class="text-info alert alert-info">
+      <p class="text-info">
       <c:choose>
         <c:when test="${not empty messageCode}">
           <spring:message code="${messageCode}" arguments="${messageCodeAttribute}" />

@@ -16,7 +16,7 @@
       <spring:message code="label_${fn:toLowerCase(fn:substringAfter(id,'_'))}" var="label" htmlEscape="false" />
     </c:if>
 
-    <div id="_${fn:escapeXml(id)}_id" class="control-group form-group">
+    <div id="_${fn:escapeXml(id)}_id" class="control-group">
       <label for="_${fn:escapeXml(field)}_id" class="control-label">
        <c:choose>
           <c:when test="${empty renderLabel or renderLabel}">
@@ -32,19 +32,16 @@
       <spring:url value="${path}" var="create_url">
         <spring:param name="form" />
       </spring:url>
-      <div class="alert alert-warning">
       <a href="${create_url}">
         <spring:url value="/resources/images/add.png" var="create_img_url" />
         <spring:message arguments="${field}" code="global_menu_new" var="add_message" htmlEscape="false" />
         <img alt="${fn:escapeXml(add_message)}" src="${create_img_url}" title="${fn:escapeXml(add_message)}" />
       </a>
-
       <c:out value=" " />
       <spring:message arguments="${label}" code="entity_not_found" javaScriptEscape="true"/>
-      </div>
       <c:if test="${not empty required and required eq 'true'}">
         (
-        <div class="errors alert alert-danger"><spring:message code="field_required" javaScriptEscape="true" /></div>
+        <spring:message code="field_required" javaScriptEscape="true" />
         )
       </c:if>
       </div>

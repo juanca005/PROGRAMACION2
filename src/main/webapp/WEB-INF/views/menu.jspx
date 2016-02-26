@@ -21,7 +21,12 @@
             <menu:item id="i_cliente_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lk2UTVTUA9lz30A2vJEbY3GbO6E="/>
         </menu:category>
         <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
-            <menu:item id="i_controller__homenegocioindex_id" messageCode="global_generic" url="/homenegocio/index" z="K807MMQQqNrthufx0UUve6AmqrY="/>
+            <menu:item id="i_controller__homenegocioindex_id" messageCode="global_generic" url="/homenegocio/home" z="K807MMQQqNrthufx0UUve6AmqrY="/>
+            <menu:item id="i_controller__homeclienteindex_id" messageCode="global_generic" url="/homecliente/index" z="uQUiL/rQKxtP0b+nfeCfcfs9lJc="/>
+        </menu:category>
+        <menu:category id="c_orden" z="L4rIXlUeEKw7YxNuuu5d7UJvxb8=">
+            <menu:item id="i_orden_new" messageCode="global_menu_new" url="/ordens?form" z="pF/zK0JKWA/gWdfN6RJbfyirMoA="/>
+            <menu:item id="i_orden_list" messageCode="global_menu_list" url="/ordens?page=1&amp;size=${empty param.size ? 10 : param.size}" z="SsZ3RtsBl2X6/VEaSy1f1PKJTnY="/>
         </menu:category>
     </menu:menu>
 </div>

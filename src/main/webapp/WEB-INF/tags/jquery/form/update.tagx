@@ -29,12 +29,12 @@
     <spring:message arguments="${label}" code="entity_update" var="title_msg" />
     <util:panel id="${id}" title="${title_msg}" openPane="${openPane}">
       <spring:url value="${path}" var="form_url" />
-      <form:form cssClass="form-horizontal" action="${form_url}" method="PUT" modelAttribute="${modelAttribute}" enctype="${enctype}"><!-- cssClass="validate" -->
-        <form:errors cssClass="errors alert alert-warning" delimiter="&lt;p/&gt;" />
+      <form:form action="${form_url}" method="PUT" modelAttribute="${modelAttribute}" enctype="${enctype}" cssClass="validate">
+        <form:errors cssClass="errors" delimiter="&lt;p/&gt;" />
         <jsp:doBody />
         <div class="submit" id="${fn:escapeXml(id)}_submit">
           <spring:message code="button_save" var="save_button" htmlEscape="false" />
-          <input id="proceed" type="submit" class="btn btn-primary btn-block" value="${fn:escapeXml(save_button)}" />
+          <input id="proceed" type="submit" value="${fn:escapeXml(save_button)}" />
         </div>
         <form:hidden id="_${fn:escapeXml(idField)}_id" path="${fn:escapeXml(idField)}" />
         <c:if test="${versionField ne 'none'}">
@@ -42,14 +42,5 @@
         </c:if>
       </form:form>
     </util:panel>
-
-    <!-- DISID: added Bootstrap classes -->
-    <script type="text/javascript">
-	  jQuery(document).ready(function() {
-		  jQuery(".control-label").addClass("col-xs-5 col-sm-4 col-md-3 col-lg-3");
-		  jQuery(".controls").addClass("red col-xs-7 col-sm-8 col-md-9 col-lg-9");
-		  jQuery(".controls.datetime").removeClass("col-xs-7 col-sm-8 col-md-9 col-lg-9").addClass("col-xs-7 col-xs-offset2 col-sm-5 col-sm-offset3 col-md-4 col-md-offset5 col-lg-3 col-lg-offset6");
-	  });
-	  </script>
   </c:if>
 </jsp:root>
