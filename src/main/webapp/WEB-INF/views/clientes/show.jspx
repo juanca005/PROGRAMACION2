@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_domain_Cliente" object="${cliente}" path="/clientes" z="XCNZ5YAB7r5zeVPEssJRdKWb9E8=">
+        <field:display field="nya" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_nya" object="${cliente}" z="7s95YS4/gJ/rVMW24GuFcs2Dhfo="/>
+        <field:display field="email" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_email" object="${cliente}" z="uuYwgk2BivnL5dukh2DS0s+c01k="/>
+        <field:display field="telefono" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_telefono" object="${cliente}" z="5evBLlMPfvE7AyAafM63D+cRPEY="/>
+        <field:display field="domicilio" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_domicilio" object="${cliente}" z="jxaWtchg+fdXb2ukcoA8bxDDEcQ="/>
+    </page:show>
+</div>

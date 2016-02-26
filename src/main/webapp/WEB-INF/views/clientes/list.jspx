@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_domain_Cliente" items="${clientes}" z="ANN0ijekxD5KwA0SojQ/+hdFTmU=">
+        <table:table data="${clientes}" id="l_ar_edu_um_programacion2_ejemploprog2_domain_Cliente" path="/clientes" z="EyuV8Lb3oIXue5BH9qV3NWqLhDE=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_nya" property="nya" z="4ruOm0N49iG4UQ8V13F3K18m+SE="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_email" property="email" z="f/eYSRvJs+wzVN3c458waQPogoY="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_telefono" property="telefono" z="vYQ/B/oEgA+o2bwOLbvjHQRCPZE="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Cliente_domicilio" property="domicilio" z="Hgz5zuqxjeEIuS5IrFmnBdZsfg4="/>
+        </table:table>
+    </page:list>
+</div>

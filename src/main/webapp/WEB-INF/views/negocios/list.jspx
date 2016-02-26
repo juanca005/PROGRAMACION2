@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_domain_Negocio" items="${negocios}" z="cpwcSG+VREgipaumMxe//yKFC6E=">
+        <table:table data="${negocios}" id="l_ar_edu_um_programacion2_ejemploprog2_domain_Negocio" path="/negocios" z="lLoyhfm2WSV10LW2IKdd1x18AFw=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Negocio_nya" property="nya" z="JPHzIFoNOlstVwtBMq1el25Wozo="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Negocio_email" property="email" z="5YJRYDEbMB5FcF2vAfQhzbzfZ5Q="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Negocio_telefono" property="telefono" z="HrWlGoj6P5GLkQ/Y7Ilh8DoOCFg="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Negocio_domicilio" property="domicilio" z="QNskQYNZRvsjtSQ6K1NG6/h2Jyw="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,57 @@
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-13 23:37:37
+project --topLevelPackage ar.edu.um.programacion2.ejemploprog2 --projectName ejemploprog2 --java 7 --packaging WAR
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2015-10-13 23:37:39
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-13 23:37:43
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2015-10-14 00:07:23
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-14 08:25:29
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-14 21:47:15
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-14 22:03:29
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 20:15:02
+web mvc language --code es
+web mvc jquery setup
+web mvc jquery all
+web mvc bootstrap setup
+web mvc bootstrap update
+web mvc bootstrap update
+jpa gvnix setup
+jpa batch all
+web mvc batch setup
+web mvc batch all
+web mvc bootstrap update
+web mvc jquery all
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 21:22:42
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 21:25:42
+security setup
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-16 18:49:13
+jpa setup --database MYSQL --provider HIBERNATE --databaseName ejmploprog2 --hostName localhost --userName root
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-16 19:03:14
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-16 19:12:52
+jpa setup --database MYSQL --provider HIBERNATE --databaseName ejmploprog2 --hostName localhost --userName root
+entity jpa --class ar.com.edu.um.domain.Item --testAutomatically
+// [failed] entity jpa --class ar.com.edu.um.domain.Cliente --testAutomatically
+entity jpa --class ar.com.edu.um.domain.Negocio --testAutomatically
+entity jpa --class ar.com.edu.um.domain.Orden --testAutomatically
+// [failed] focus --class ~.domain.Cliente
+field string --fieldName nya --notNull
+// [failed] focus --class ~.domain.Negocio
+// [failed] field string --fieldName nya --notNull
+// [failed] focus --class ~.domain.Item
+field string --fieldName nombre --notNull
+focus --class ar.com.edu.um.domain.Negocio
+field string --fieldName nya --notNull
+focus --class ar.com.edu.um.domain.Item
+field string --fieldName nombre --notNull
+entity jpa --class ar.com.edu.um.domain.Cliente --testAutomatically
+focus --class ar.com.edu.um.domain.Cliente
+field string --fieldName nya --notNull
+focus --class ar.com.edu.um.domain.Item
+field string --fieldName nombre --notNull
+web mvc all --package ar.com.edu.um.web
+jpa setup --database MYSQL --provider HIBERNATE --databaseName ejemploprog2 --hostName localhost --userName root

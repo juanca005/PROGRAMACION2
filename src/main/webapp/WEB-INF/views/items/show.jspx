@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_domain_Item" object="${item}" path="/items" z="+5mZboVRMmeSJLqlWpxKbHljZP8=">
+        <field:display field="negocio" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_negocio" object="${item}" z="qm/HU63LvLMGj83FwPBACOG+nkw="/>
+        <field:display field="nombre" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_nombre" object="${item}" z="aasTBvCfiqfKcydFabDRxMqVP+s="/>
+        <field:display field="precio" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_precio" object="${item}" z="dL4rBDmsohXCcY6mUW0STeJK8dQ="/>
+        <field:display field="estado" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_estado" object="${item}" z="Z/jkeNO8T0Jgdvp0cRnAogfoMbw="/>
+        <field:display field="descripcion" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_descripcion" object="${item}" z="ucXCjYT/Lq9ZDajk6ZnAlYrLXrY="/>
+        <field:display field="foto" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_foto" object="${item}" z="HN6XePictghHHy165vMVnOBlKI8="/>
+        <field:display field="orden" id="s_ar_edu_um_programacion2_ejemploprog2_domain_Item_orden" object="${item}" z="yIQVVdK1yhcOjRGcYC+lCZFQOVc="/>
+    </page:show>
+</div>

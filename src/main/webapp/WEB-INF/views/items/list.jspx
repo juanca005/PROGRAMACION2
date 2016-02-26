@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_domain_Item" items="${items}" z="8/BCNLWNZaCeVMC+V1sF2ceOrmE=">
+        <table:table data="${items}" id="l_ar_edu_um_programacion2_ejemploprog2_domain_Item" path="/items" z="rXUZ6XoymEScjxyu31Jy/7Fwqvc=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_negocio" property="negocio" z="TPtRTqgMrus5gHmAUYfe/F0Xm+A="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_nombre" property="nombre" z="bJZoGZvB1Ko+D5yYe9N60YT8BI8="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_precio" property="precio" z="Zq+gPZX8UaUg1Ji5fCSfPmQick8="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_estado" property="estado" z="rdSzMUl4mv7IztZpV1D8m3mOCvQ="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_descripcion" property="descripcion" z="Vi+ko9B/DaPaWJpY3s2IONF5JXQ="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_foto" property="foto" z="awYZ3MoqNCavR2nt69asiSa2fAM="/>
+        </table:table>
+    </page:list>
+</div>

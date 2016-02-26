@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ar_edu_um_programacion2_ejemploprog2_domain_Item" modelAttribute="item" path="/items" render="${empty dependencies}" z="TLwrVLPhO+/62krbfVqGoGzN0Dc=">
+        <field:select field="negocio" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_negocio" itemValue="id" items="${negocios}" path="/negocios" required="true" z="17fU6xwz5B1qHHLfuUnsL9SCY5k="/>
+        <field:input field="nombre" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_nombre" max="30" required="true" z="25ajjk7sziw0qbOpedrdZGEK5E0="/>
+        <field:input field="precio" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_precio" z="QoJRoVDBFouuaaVIYAT65DxpvLI="/>
+        <field:checkbox field="estado" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_estado" z="3bq/nyWDRMdQ+77xhXMf6RXkrR8="/>
+        <field:input field="descripcion" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_descripcion" z="cB5k/J0mPg8W514vDF6YUnnkC24="/>
+        <field:textarea field="foto" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_foto" z="9xBTPW3Eyjrr3Zn4klpmpJfQbRc="/>
+        <field:input field="orden" id="c_ar_edu_um_programacion2_ejemploprog2_domain_Item_orden" z="0K+gFhh+pcNeHbLHZlh22SZYKrk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ar_edu_um_programacion2_ejemploprog2_domain_Item" render="${not empty dependencies}" z="6HmMqCZ9IuNEWExDkJioJLqNNSA="/>
+</div>

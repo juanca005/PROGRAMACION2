@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="homenegocio/index">
+        <put-attribute name="body" value="/WEB-INF/views/homenegocio/index.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="homenegocio/home">
+        <put-attribute name="body" value="/WEB-INF/views/homenegocio/home.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="homenegocio/editar">
+        <put-attribute name="body" value="/WEB-INF/views/homenegocio/editar.jsp"/>
+    </definition>
+    
+    <definition extends="default" name="homenegocio/verhome">
+        <put-attribute name="body" value="/WEB-INF/views/homenegocio/verhome.jsp"/>
+    </definition>
+</tiles-definitions>
