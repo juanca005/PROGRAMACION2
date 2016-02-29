@@ -1,0 +1,328 @@
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-13 23:37:37
+project --topLevelPackage ar.edu.um.programacion2.ejemploprog2 --projectName ejemploprog2 --java 7 --packaging WAR
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2015-10-13 23:37:39
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-13 23:37:43
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2015-10-14 00:07:23
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2015-10-14 08:25:29
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-14 21:47:15
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-14 22:03:29
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 20:15:02
+web mvc language --code es
+web mvc jquery setup
+web mvc jquery all
+web mvc bootstrap setup
+web mvc bootstrap update
+web mvc bootstrap update
+jpa gvnix setup
+jpa batch all
+web mvc batch setup
+web mvc batch all
+web mvc bootstrap update
+web mvc jquery all
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 21:22:42
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-15 21:25:42
+security setup
+web mvc all --package ~.web
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Usuario --testAutomatically
+field string --fieldName username
+field string --fieldName password
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Rol --testAutomatically
+field string --fieldName nombre
+focus --class ~.model.Usuario
+field reference --fieldName id_rol --type ~.model.Rol
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 22:53:52
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-16 19:02:34
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-17 11:02:17
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Estado --testAutomatically
+field string --fieldName nombre
+focus --class ~.model.Usuario
+field reference --fieldName id_estado --type ~.model.Estado
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-17 12:05:59
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-17 19:24:31
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Comercio --testAutomatically
+field string --fieldName nombre
+field string --fieldName direccion
+// [failed] field reference --fieldName usuario --type ~.domain.Usuario
+field reference --fieldName usuario --type ~.model.Usuario
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName MenuComercio --title MenuComercio --path /menuComercio
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName MenuComercio --title index --path /menuComercio
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName MenuComercio2 --title index --path /menuComerce
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName index --title Menu_Comercio --path /menuComercio
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-17 22:49:16
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-18 10:53:44
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Producto --testAutomatically
+field string --fieldName nombre
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Usuario
+finder add findUsuariosByUsernameEquals
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Producto
+finder add findProductoesByUsuario
+field reference --fieldName usuario --type ~.model.Usuario
+finder add findProductoesByUsuario
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-18 12:14:59
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-18 19:52:10
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-18 22:37:39
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-22 18:22:40
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Usuario
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+controller class --class ~.web.Controlador1Comercio --preferredMapping /menucomercio
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+controller class --class ~.web.Controlador1Cliente --preferredMapping /menucliente
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName cargarproducto --title CargarProducto --path /menucomercio
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc datatables setup
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+// [failed] web mvc datatables add --type ~.web.Controlador1Comercio
+web mvc all --package ~.web
+web mvc bootstrap update
+finder add --finderName findComerciosByNombreAndDireccion --class ~.model.Comercio
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc finder all
+web mvc all --package ~.web
+web mvc finder all
+web mvc bootstrap update
+web mvc finder all
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc finder all
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc finder all
+finder add findProductoesByDireccion
+finder add findProductoesByNombre
+focus --class ~.model.Producto
+finder add findProductoesByDireccion
+// [failed] field number --fieldName precio --type float 
+// [failed] field number --fieldName precio --type float 
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc view --viewName buscarproducto --title BuscarProducto --path /menucliente
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-22 22:49:42
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-23 00:49:46
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-23 01:03:48
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-23 19:56:22
+web mvc view --viewName comprarproducto --title ComprarProducto --path /menucliente
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-23 23:14:41
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 10:05:44
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Tags --testAutomatically
+field string --fieldName nombre
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Comercio
+// [failed] field reference --fieldName id_tags --type ~.model.Tags
+// [failed] field reference --fieldName id_tags --type ~.model.Tags
+// [failed] field reference --fieldName id_tags --type ~.model.Tags
+web mvc all --package ~.web
+web mvc all --package ~.web
+focus --class ~.model.Comercio
+field reference --fieldName id_tags --type ~.model.Tags
+focus --class ~.model.Tags
+field reference --fieldName id_estado --type ~.model.Estado
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+jpa geo setup --provider HIBERNATE_SPATIAL
+focus --class ~.model.Comercio
+field geo --fieldName location --type POINT --class ~.model.Comercio
+finder geo all
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc fancytree setup
+web mvc geo setup
+// [failed] web mvc geo field --controller ~.web.NegocioController --field location
+finder geo all
+web mvc all --package ~.web
+// [failed] web mvc bootstrap update
+jpa geo setup --provider HIBERNATE_SPATIAL
+finder geo add --class ~.model.Comercio
+web mvc geo field --controller ~.web.ComercioController --field location
+// [failed] web mvc geo base layer field --controller ~.web.ComercioController --field location --url "http://maptile.maps.svc.ovi.com/maptiler/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8" --type tile
+web mvc geo controller --class ~.web.MapController --preferredMapping map
+web mvc geo base layer field --controller ~.web.ComercioController --field location --url "http://maptile.maps.svc.ovi.com/maptiler/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8" --type tile
+web mvc all --package ~.web
+web mvc bootstrap update
+web report setup
+web report add --controller ~.web.ComercioController --reportName report_ventas
+web report add --controller ~.web.ComercioController --reportName report_ventas
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-25 12:35:32
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 21:29:28
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Combo --testAutomatically
+field string --fieldName nombre
+entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Item --testAutomatically
+focus --class ~.model.Producto
+field string --fieldName descripcion
+field reference --fieldName id_estado --type ~.model.Estado
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Combo
+field reference --fieldName id_producto --type ~.model.Producto
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+field reference --fieldName id_estado --type ~.model.Estado
+field reference --fieldName id_comercio --type ~.model.Comercio
+web mvc all --package ~.web
+web mvc bootstrap update
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-25 22:06:41
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 22:06:49
+web mvc all --package ~.web
+web mvc scaffold --class ~.model.Combo --backingType ~.model.Combo
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-25 22:57:20
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-25 23:40:47
+// [failed] entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Combo --testAutomatically
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+focus --class ~.model.Combo
+web mvc all --package ~.web
+web mvc scaffold --class ~.model.Combo 
+web mvc all --package ~.web
+// [failed] field string --fieldName descripcion
+field string --fieldName descripcion --class ~.model.Combo
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+web mvc bootstrap update
+jpa setup --provider HIBERNATE --database MYSQL --databaseName prog2 --userName root --password 1234
+web mvc all --package ~.web
+web mvc all --package ~.web
+jpa geo setup --provider HIBERNATE_SPATIAL
+web mvc all --package ~.web
+web mvc bootstrap update
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-26 09:10:29
+web mvc all --package ~.web
+web mvc bootstrap update
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-26 09:14:11
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-26 09:58:54
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-26 10:06:20
+// Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-29 20:11:54

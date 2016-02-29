@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:geofield="urn:jsptagdir:/WEB-INF/tags/geo/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:layer="urn:jsptagdir:/WEB-INF/tags/geo/layers" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_model_Comercio" object="${comercio}" path="/comercios" z="Z/w4PZ8JZPvaIRu6xFoQMKpwUNg=">
+        <field:display field="nombre" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_nombre" object="${comercio}" z="k8ScamFOgjiFIs7r2Y3wchWb988="/>
+        <field:display field="direccion" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_direccion" object="${comercio}" z="5DJmRd9/XvksA7hvdjX5OTS6Fh4="/>
+        <field:display field="usuario" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_usuario" object="${comercio}" z="9+TaRCT6gC024Ny6SaiBI60HHRo="/>
+        <field:display field="telefono" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_telefono" object="${comercio}" z="AyXBg/EgRDQ5PA3MJCezeXsv1oU="/>
+        <field:display field="correo" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_correo" object="${comercio}" z="+dg5aSUyBhUJvrrM2DXKc/INj7U="/>
+        <field:display field="contacto" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_contacto" object="${comercio}" z="mrwT0lKVhHMFSUvAZanSa17idXE="/>
+        <field:display field="id_tags" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_id_tags" object="${comercio}" z="RTbE6FH5lXM5AuMGwGp7Mvd1rPo="/>
+        <geofield:map-display field="location" id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_location" object="${comercio}" path="/comercios" z="user-managed">
+            <layer:tile id="s_ar_edu_um_programacion2_ejemploprog2_model_Comercio_location_baselayer" url="http://maptile.maps.svc.ovi.com/maptiler/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8" z="user-managed"/>
+        </geofield:map-display>
+    </page:show>
+</div>

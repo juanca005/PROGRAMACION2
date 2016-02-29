@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ar_edu_um_programacion2_ejemploprog2_model_Combo" modelAttribute="combo" path="/comboes" render="${empty dependencies}" z="w2p7W1pZjQjni4WfnTui8v5RBLE=">
+        <field:input field="nombre" id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_nombre" z="Ebk0PtiBiD/mXKiLKCLYGk8myfw="/>
+        <field:select field="id_producto" id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_producto" itemValue="id" items="${productoes}" multiple="true" path="/productoes" z="user-managed"/>
+        <field:select field="id_estado" id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_estado" itemValue="id" items="${estadoes}" path="/estadoes" z="/HdgmYQARprebx+9+8gIAIs6Dq4="/>
+        <field:select field="id_comercio" id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_comercio" itemValue="id" items="${comercios}" path="/comercios" z="u93MQKfSg9r9nZRphlJpoy8T+HI="/>
+        <field:input field="descripcion" id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_descripcion" z="cBiEm0fcLMSaojHvu/RJ2l8zSVo="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ar_edu_um_programacion2_ejemploprog2_model_Combo" render="${not empty dependencies}" z="hiDWTyBbfKpM0x0n/5S1btpwhYw="/>
+</div>

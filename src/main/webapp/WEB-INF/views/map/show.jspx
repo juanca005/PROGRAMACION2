@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:geo="urn:jsptagdir:/WEB-INF/tags/geo" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:layer="urn:jsptagdir:/WEB-INF/tags/geo/layers" xmlns:layer-toc="urn:jsptagdir:/WEB-INF/tags/geo/layers/toc" xmlns:layer-tool="urn:jsptagdir:/WEB-INF/tags/geo/layers/tools" xmlns:tool="urn:jsptagdir:/WEB-INF/tags/geo/tools" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+<geo:map id="ps_ar_edu_um_programacion2_ejemploprog2_web_Map" projection="EPSG3857" z="zp4LsbOdwtxEfQ69ZaVyPVjIWBg=">
+        <geo:toc id="ps_ar_edu_um_programacion2_ejemploprog2_web_Map_toc" z="T5KeLhwkj8cnv1Jf/0hIDJNlDuI=">
+            <layer:tile allowDisable="false" id="ps_ar_edu_um_programacion2_ejemploprog2_web_Map_default_layer" url="http://{s}.tile.osm.org/{z}/{x}/{y}.png?bar" z="rBracLynBEO3B+dAQ91mMboMTg4="/>
+        </geo:toc>
+        <geo:toolbar id="ps_ar_edu_um_programacion2_ejemploprog2_web_Map_toolbar" z="djdkusacFOngQ2d6AyHR5ug5jIg="/>
+    </geo:map>
+</div>

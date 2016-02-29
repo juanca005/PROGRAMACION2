@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="comboes/list">
+        <put-attribute name="body" value="/WEB-INF/views/comboes/list.jspx"/>
+    </definition>
+<definition extends="default" name="comboes/show">
+        <put-attribute name="body" value="/WEB-INF/views/comboes/show.jspx"/>
+    </definition>
+<definition extends="default" name="comboes/create">
+        <put-attribute name="body" value="/WEB-INF/views/comboes/create.jspx"/>
+    </definition>
+<definition extends="default" name="comboes/update">
+        <put-attribute name="body" value="/WEB-INF/views/comboes/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_model_Usuario" items="${usuarios}" z="SL1WCHDramHd6/xg1w7udMnUzdw=">
+        <table:table data="${usuarios}" id="l_ar_edu_um_programacion2_ejemploprog2_model_Usuario" path="/usuarios" z="ji519c6g45oBJdnwTFm1qI7FJ+I=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Usuario_username" property="username" z="Xpplf+jIubN2WSSr6/Wu+oh9kZM="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Usuario_password" property="password" z="Abwms2nRqUmchnyqxC4l9qzfTpg="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_rol" property="id_rol" z="Kju9p8ZIG24E0foAuQrP2h66abk="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Usuario_passwordEncoder" property="passwordEncoder" z="Esnh/+8c4Ibq+/6A/RWkMZDjdNM="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_estado" property="id_estado" z="6wWHPSyEopHzVs5waNGmf30tvQg="/>
+        </table:table>
+    </page:list>
+</div>
