@@ -3,6 +3,7 @@
 
 package ar.edu.um.programacion2.ejemploprog2.web;
 
+<<<<<<< HEAD
 import ar.edu.um.programacion2.ejemploprog2.model.Combo;
 import ar.edu.um.programacion2.ejemploprog2.model.Comercio;
 import ar.edu.um.programacion2.ejemploprog2.model.Estado;
@@ -10,6 +11,9 @@ import ar.edu.um.programacion2.ejemploprog2.model.Item;
 import ar.edu.um.programacion2.ejemploprog2.model.Producto;
 import ar.edu.um.programacion2.ejemploprog2.model.Rol;
 import ar.edu.um.programacion2.ejemploprog2.model.Tags;
+=======
+import ar.edu.um.programacion2.ejemploprog2.model.Rol;
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 import ar.edu.um.programacion2.ejemploprog2.model.Usuario;
 import ar.edu.um.programacion2.ejemploprog2.web.ApplicationConversionServiceFactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
@@ -20,6 +24,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     declare @type: ApplicationConversionServiceFactoryBean: @Configurable;
     
+<<<<<<< HEAD
     public Converter<Combo, String> ApplicationConversionServiceFactoryBean.getComboToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ar.edu.um.programacion2.ejemploprog2.model.Combo, java.lang.String>() {
             public String convert(Combo combo) {
@@ -140,6 +145,8 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     public Converter<Rol, String> ApplicationConversionServiceFactoryBean.getRolToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ar.edu.um.programacion2.ejemploprog2.model.Rol, java.lang.String>() {
             public String convert(Rol rol) {
@@ -164,6 +171,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+<<<<<<< HEAD
     public Converter<Tags, String> ApplicationConversionServiceFactoryBean.getTagsToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ar.edu.um.programacion2.ejemploprog2.model.Tags, java.lang.String>() {
             public String convert(Tags tags) {
@@ -188,6 +196,8 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     public Converter<Usuario, String> ApplicationConversionServiceFactoryBean.getUsuarioToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ar.edu.um.programacion2.ejemploprog2.model.Usuario, java.lang.String>() {
             public String convert(Usuario usuario) {
@@ -213,6 +223,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     }
     
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
+<<<<<<< HEAD
         registry.addConverter(getComboToStringConverter());
         registry.addConverter(getIdToComboConverter());
         registry.addConverter(getStringToComboConverter());
@@ -234,6 +245,11 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getTagsToStringConverter());
         registry.addConverter(getIdToTagsConverter());
         registry.addConverter(getStringToTagsConverter());
+=======
+        registry.addConverter(getRolToStringConverter());
+        registry.addConverter(getIdToRolConverter());
+        registry.addConverter(getStringToRolConverter());
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
         registry.addConverter(getUsuarioToStringConverter());
         registry.addConverter(getIdToUsuarioConverter());
         registry.addConverter(getStringToUsuarioConverter());

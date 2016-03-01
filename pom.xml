@@ -17,9 +17,12 @@
     <querydsl.version>3.6.5</querydsl.version>
     <gvnix.version>1.5.0.RELEASE</gvnix.version>
     <spring-security.version>3.2.5.RELEASE</spring-security.version>
+<<<<<<< HEAD
     <jasperreports.version>5.0.1</jasperreports.version>
     <jasperreportsfonts.version>4.0.0</jasperreportsfonts.version>
     <apachepoi.version>3.9</apachepoi.version>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     </properties>
     <repositories>
         <repository>
@@ -42,6 +45,7 @@
             <url>http://repository.gvnix.org</url>
             <name>gvNIX External Libraries repo</name>
         </repository>
+<<<<<<< HEAD
     <repository>
             <id>OSGEO GeoTools repo</id>
             <url>http://download.osgeo.org/webdav/geotools</url>
@@ -50,6 +54,8 @@
             <id>Hibernate Spatial repo</id>
             <url>http://www.hibernatespatial.org/repository</url>
         </repository>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -331,7 +337,11 @@
     <dependency>
             <groupId>org.gvnix</groupId>
             <artifactId>org.gvnix.web.json.binding</artifactId>
+<<<<<<< HEAD
             <version>${gvnix.version}</version>
+=======
+            <version>1.5.0.RELEASE</version>
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
         </dependency>
     <dependency>
             <groupId>org.springframework.security</groupId>
@@ -365,6 +375,7 @@
             <artifactId>spring-security-taglibs</artifactId>
             <version>${spring-security.version}</version>
         </dependency>
+<<<<<<< HEAD
     <dependency>
             <groupId>org.gvnix</groupId>
             <artifactId>org.gvnix.addon.datatables.annotations</artifactId>
@@ -456,6 +467,8 @@
             <artifactId>jasperreports-fonts</artifactId>
             <version>${jasperreportsfonts.version}</version>
         </dependency>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     </dependencies>
     <build>
         <plugins>

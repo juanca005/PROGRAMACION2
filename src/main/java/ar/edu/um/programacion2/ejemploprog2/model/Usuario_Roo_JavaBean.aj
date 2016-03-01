@@ -3,7 +3,10 @@
 
 package ar.edu.um.programacion2.ejemploprog2.model;
 
+<<<<<<< HEAD
 import ar.edu.um.programacion2.ejemploprog2.model.Estado;
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 import ar.edu.um.programacion2.ejemploprog2.model.Rol;
 import ar.edu.um.programacion2.ejemploprog2.model.Usuario;
 import org.springframework.security.authentication.encoding.MessageDigestPasswordEncoder;
@@ -38,6 +41,7 @@ privileged aspect Usuario_Roo_JavaBean {
         this.id_rol = id_rol;
     }
     
+<<<<<<< HEAD
     public Estado Usuario.getId_estado() {
         return this.id_estado;
     }
@@ -46,4 +50,6 @@ privileged aspect Usuario_Roo_JavaBean {
         this.id_estado = id_estado;
     }
     
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 }

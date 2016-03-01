@@ -2,10 +2,13 @@
 <jsp:root xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
   <jsp:output omit-xml-declaration="yes"/>
 
+<<<<<<< HEAD
   <!-- Datatables-Bootstrap -->
   <spring:url value="/resources/styles/bootstrap/dataTables.bootstrap.css" var="css_datatables_bootstrap_url" />
   <link href="${css_datatables_bootstrap_url}" media="screen" rel="stylesheet" type="text/css" />
 
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
   <!-- Jquery-Bootstrap -->
   <spring:url value="/resources/styles/bootstrap/jquery-ui.bootstrap.css" var="jquery_ui_bootstrap_css_url" />
   <link href="${jquery_ui_bootstrap_css_url}" media="screen" rel="stylesheet" type="text/css" />
@@ -16,6 +19,7 @@
     <!--required for FF3 and Opera-->
   </script>
 
+<<<<<<< HEAD
   <!-- Datatables-Bootstrap -->
   <spring:url
     value="/resources/scripts/bootstrap/dataTables.bootstrap.js" var="datatables_bootstrap_js_url" />
@@ -23,6 +27,8 @@
     <!--required for FF3 and Opera-->
   </script>
 
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
   <!-- Custom styles for offcanvas template -->
   <spring:url value="/resources/scripts/bootstrap/offcanvas.js" var="offcanvas_url" />
   <script src="${offcanvas_url}" type="text/javascript">

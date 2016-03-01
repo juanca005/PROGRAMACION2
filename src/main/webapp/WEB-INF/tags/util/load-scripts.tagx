@@ -104,6 +104,7 @@
     <script src="${jquery_dialog_extend_js_url}" type="text/javascript">
         <!--required for FF3 and Opera-->
     </script>
+<<<<<<< HEAD
 <spring:url value="/resources/styles/datatables/jquery.dataTables.css" var="css_jquery_datatables_url"/>
     <link href="${css_jquery_datatables_url}" media="screen,print" rel="stylesheet" type="text/css"/>
     <spring:url value="/resources/styles/datatables/gvnix.dataTables.css" var="css_gvnix_datatables_url"/>
@@ -326,4 +327,6 @@
     <link href="${styles_marker_cluster_default_css}" media="screen,print" rel="stylesheet" type="text/css"/>
 <spring:url value="/resources/styles/glyphs/whhg.css" var="styles_glyphs_whhg"/>
     <link href="${styles_glyphs_whhg}" media="screen,print" rel="stylesheet" type="text/css"/>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 </jsp:root>

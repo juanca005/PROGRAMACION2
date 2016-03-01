@@ -48,6 +48,7 @@ web mvc all --package ~.web
 web mvc bootstrap update
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-15 22:53:52
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-16 19:02:34
+<<<<<<< HEAD
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-17 11:02:17
 entity jpa --class ar.edu.um.programacion2.ejemploprog2.model.Estado --testAutomatically
 field string --fieldName nombre
@@ -326,3 +327,5 @@ web mvc all --package ~.web
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-26 09:58:54
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log closed at 2016-02-26 10:06:20
 // Spring Roo 1.3.2.RELEASE [rev 8c2549b] log opened at 2016-02-29 20:11:54
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a

@@ -48,10 +48,13 @@
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
     </filter>
+<<<<<<< HEAD
     <filter>
         <filter-name>datatablesFilter</filter-name>
         <filter-class>com.github.dandelion.datatables.core.web.filter.DatatablesFilter</filter-class>
     </filter>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     <filter-mapping>
         <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
@@ -74,10 +77,13 @@
         <filter-name>springSecurityFilterChain</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+<<<<<<< HEAD
     <filter-mapping>
         <filter-name>datatablesFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -92,19 +98,25 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
+<<<<<<< HEAD
     <servlet>
         <servlet-name>datatablesController</servlet-name>
         <servlet-class>com.github.dandelion.datatables.core.web.servlet.DatatablesServlet</servlet-class>
     </servlet>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     
     <servlet-mapping>
         <servlet-name>ejemploprog2</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+<<<<<<< HEAD
     <servlet-mapping>
         <servlet-name>datatablesController</servlet-name>
         <url-pattern>/datatablesController/*</url-pattern>
     </servlet-mapping>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     
     <session-config>
         <session-timeout>10</session-timeout>

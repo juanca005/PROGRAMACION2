@@ -3,7 +3,10 @@
 
 package ar.edu.um.programacion2.ejemploprog2.model;
 
+<<<<<<< HEAD
 import ar.edu.um.programacion2.ejemploprog2.model.EstadoDataOnDemand;
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 import ar.edu.um.programacion2.ejemploprog2.model.RolDataOnDemand;
 import ar.edu.um.programacion2.ejemploprog2.model.Usuario;
 import ar.edu.um.programacion2.ejemploprog2.model.UsuarioDataOnDemand;
@@ -26,9 +29,12 @@ privileged aspect UsuarioDataOnDemand_Roo_DataOnDemand {
     private List<Usuario> UsuarioDataOnDemand.data;
     
     @Autowired
+<<<<<<< HEAD
     EstadoDataOnDemand UsuarioDataOnDemand.estadoDataOnDemand;
     
     @Autowired
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     RolDataOnDemand UsuarioDataOnDemand.rolDataOnDemand;
     
     public Usuario UsuarioDataOnDemand.getNewTransientUsuario(int index) {

@@ -10,6 +10,7 @@
         <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=">
             <menu:item id="i_usuario_new" messageCode="global_menu_new" url="/usuarios?form" z="RG1gCsiZQjg1HLDzXbHKht6yDkw="/>
             <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
+<<<<<<< HEAD
             <menu:item id="fi_usuario_usernameequals" messageCode="global_menu_find" url="/usuarios?find=ByUsernameEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="WxYO0zL0EpWXK3a1CNk+biWg9DI="/>
         </menu:category>
         <menu:category id="c_estado" z="R0VnER9YYkIt+dO11st4rxP96qg=">
@@ -48,6 +49,8 @@
         <menu:category id="c_combo" z="L2BrFIDICqil3isY9psmIVGW3RY=">
             <menu:item id="i_combo_new" messageCode="global_menu_new" url="/comboes?form" z="37iiriWbfk57zjwJPmUntoTzzKw="/>
             <menu:item id="i_combo_list" messageCode="global_menu_list" url="/comboes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="0BGdMGjTNkEF6tOXbi/GOj+Jrcg="/>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
         </menu:category>
     </menu:menu>
 </div>

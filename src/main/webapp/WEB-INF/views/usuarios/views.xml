@@ -13,7 +13,10 @@
 <definition extends="default" name="usuarios/update">
         <put-attribute name="body" value="/WEB-INF/views/usuarios/update.jspx"/>
     </definition>
+<<<<<<< HEAD
 <definition extends="default" name="usuarios/findUsuariosByUsernameEquals">
         <put-attribute name="body" value="/WEB-INF/views/usuarios/findUsuariosByUsernameEquals.jspx"/>
     </definition>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 </tiles-definitions>

@@ -10,15 +10,14 @@
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.ProductoController_Roo_Controller"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Estado_Roo_JavaBean"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Estado_Roo_Jpa_Entity"/>
-<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Item_Roo_Configurable"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Combo_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Item_Roo_Configurable"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Tags_Roo_ToString"/>
-<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Usuario_Roo_Jpa_ActiveRecord"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.ComboController_Roo_Controller"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Comercio_Roo_GvNIXEntityMapLayer"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.TagsController_Roo_Controller"/>
-<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Comercio_Roo_Configurable"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.Comercio_Roo_Configurable"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Rol_Roo_ToString"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.ItemController_Roo_Controller"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Comercio_Roo_ToString"/>
@@ -45,8 +44,8 @@
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.UsuarioController_Roo_Controller"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Item_Roo_Jpa_Entity"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.web.ProductoController_Roo_Controller_Finder"/>
-<aspect name="ar.edu.um.programacion2.ejemploprog2.web.ApplicationConversionServiceFactoryBean_Roo_GvNIXGeoConversionService"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Tags_Roo_Json"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.web.ApplicationConversionServiceFactoryBean_Roo_GvNIXGeoConversionService"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Producto_Roo_Configurable"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Producto_Roo_ToString"/>
 <aspect name="ar.edu.um.programacion2.ejemploprog2.model.Combo_Roo_ToString"/>

@@ -16,10 +16,13 @@
     <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
   </definition>
 
+<<<<<<< HEAD
    <definition name="default-map" template="/WEB-INF/layouts/default-map.jspx">
     <put-attribute name="header" value="/WEB-INF/views/header.jspx" />
     <put-attribute name="menu" value="/WEB-INF/views/menu.jspx" />
     <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
   </definition>
 
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 </tiles-definitions>

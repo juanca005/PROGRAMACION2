@@ -3,7 +3,10 @@
 
 package ar.edu.um.programacion2.ejemploprog2.web;
 
+<<<<<<< HEAD
 import ar.edu.um.programacion2.ejemploprog2.model.Estado;
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
 import ar.edu.um.programacion2.ejemploprog2.model.Rol;
 import ar.edu.um.programacion2.ejemploprog2.model.Usuario;
 import ar.edu.um.programacion2.ejemploprog2.web.UsuarioController;
@@ -88,7 +91,10 @@ privileged aspect UsuarioController_Roo_Controller {
     
     void UsuarioController.populateEditForm(Model uiModel, Usuario usuario) {
         uiModel.addAttribute("usuario", usuario);
+<<<<<<< HEAD
         uiModel.addAttribute("estadoes", Estado.findAllEstadoes());
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
         uiModel.addAttribute("rols", Rol.findAllRols());
     }
     

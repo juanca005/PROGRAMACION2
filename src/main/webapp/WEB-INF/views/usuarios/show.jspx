@@ -7,6 +7,9 @@
         <field:display field="password" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_password" object="${usuario}" z="YkgMwese5QjBM0YoCcJoZ1jwZ6Q="/>
         <field:display field="id_rol" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_rol" object="${usuario}" z="i93GvbF+1tqKbpLf4LuzfTO2sJY="/>
         <field:display field="passwordEncoder" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_passwordEncoder" object="${usuario}" z="eEtS6mUcoz9aLiX4RuAWD3GsCiM="/>
+<<<<<<< HEAD
         <field:display field="id_estado" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_estado" object="${usuario}" z="vJfxvvzN5Se1NLeYKHDA9+mfLrQ="/>
+=======
+>>>>>>> 2affdbd028e06842dd4cb5618442062e205bd19a
     </page:show>
 </div>
