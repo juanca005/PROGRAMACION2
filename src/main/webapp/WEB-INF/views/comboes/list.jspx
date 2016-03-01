@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_model_Combo" items="${comboes}" z="r1oa/GFp1iPMh9AxABDKzCPb8W4=">
+        <table:table data="${comboes}" id="l_ar_edu_um_programacion2_ejemploprog2_model_Combo" path="/comboes" z="aelZQ4jFcvptEkrYyZhzrU5iNO0=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_nombre" property="nombre" z="b0Jdr3T0+znZK6OY425HzX7X/iY="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_producto" property="id_producto" z="Qoe+zeiB3Cnfps33d/ru96Lh2vQ="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_estado" property="id_estado" z="jHpvTV4poVn94QA9XpAhj5BNpFc="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_comercio" property="id_comercio" z="Loq+GRGRm8CpkFXHLgWscPVD10E="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Combo_descripcion" property="descripcion" z="gIm5nU5Cpjq0Ixe5SEFVsj76HUw="/>
+        </table:table>
+    </page:list>
+</div>

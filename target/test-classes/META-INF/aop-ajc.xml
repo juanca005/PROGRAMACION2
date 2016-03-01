@@ -1,0 +1,37 @@
+<aspectj>
+<aspects>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ProductoDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComercioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComercioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.TagsIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComboDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ItemIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ItemIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComercioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.EstadoIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.EstadoDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.EstadoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.TagsDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ProductoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.TagsDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ProductoIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComboIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ProductoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComboDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.TagsIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComercioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ItemDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ItemDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.ComboIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.EstadoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.um.programacion2.ejemploprog2.model.RolDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_model_Producto" object="${producto}" path="/productoes" z="ADvQkoVl/sZkwSbnaxCe0rZlHdU=">
+        <field:display field="nombre" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_nombre" object="${producto}" z="KmQXrq2oPqKoaXtuYmbzUaV2oGI="/>
+        <field:display field="usuario" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_usuario" object="${producto}" z="3scFQyJ9sBLDkMLo3qWLfe/aedc="/>
+        <field:display field="comercio" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_comercio" object="${producto}" z="1YsZkIBVDWK6I5V/xvDxcRiqqbA="/>
+        <field:display field="precio" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_precio" object="${producto}" z="RMdt18tT/XylWMXlBzytVQVSm+A="/>
+        <field:display field="descripcion" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_descripcion" object="${producto}" z="2zx/O0F30/ZAtjS97gKNnIRKKlI="/>
+        <field:display field="id_estado" id="s_ar_edu_um_programacion2_ejemploprog2_model_Producto_id_estado" object="${producto}" z="Su3KxC5pBJVKEqxotlu7bcYs40M="/>
+    </page:show>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_model_Combo" object="${combo}" path="/comboes" z="gEdM+wU+pY0KYb9pwW1kTDGTaNs=">
+        <field:display field="nombre" id="s_ar_edu_um_programacion2_ejemploprog2_model_Combo_nombre" object="${combo}" z="YqzlNd6EtBlcMN+nNFS2VI0HwY8="/>
+        <field:display field="id_producto" id="s_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_producto" object="${combo}" z="5hRvCmJwBGE/ye/GhZDoyQqwoL4="/>
+        <field:display field="id_estado" id="s_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_estado" object="${combo}" z="eHZ5m4EFoAvneODWls8bA3hwPIo="/>
+        <field:display field="id_comercio" id="s_ar_edu_um_programacion2_ejemploprog2_model_Combo_id_comercio" object="${combo}" z="r2m5kBbiqj8n3+Gkz2P5+hDZNT8="/>
+        <field:display field="descripcion" id="s_ar_edu_um_programacion2_ejemploprog2_model_Combo_descripcion" object="${combo}" z="5GWo/eMJZ6mnxwmzb3IwwmpUJ6A="/>
+    </page:show>
+</div>

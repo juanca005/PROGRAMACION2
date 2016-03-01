@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ar_edu_um_programacion2_ejemploprog2_model_Comercio" items="${comercios}" z="7SUyx4rpAVnIz0s2Fz8JxqHJESc=">
+        <table:table data="${comercios}" id="l_ar_edu_um_programacion2_ejemploprog2_model_Comercio" path="/comercios" z="dJIk2HMV+mLTkTOGIY6uhiBG+YU=">
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_nombre" property="nombre" z="LemUAitgF9jr8Tlmrm8ypfhbN1I="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_direccion" property="direccion" z="vk/ePHHgMLLcIPR6wxbYOSXX8cA="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_usuario" property="usuario" z="7K05OymwAtU8RijM1f6O4EmI/k0="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_telefono" property="telefono" z="os2vpSHinqsGGCJb2nUjCByAm1E="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_correo" property="correo" z="pqrgKIBkK3z1DQB9nE6/Y2EKESc="/>
+            <table:column id="c_ar_edu_um_programacion2_ejemploprog2_model_Comercio_contacto" property="contacto" z="Siuhi+cKLoLgf16tycdZYj2ZnxY="/>
+        </table:table>
+    </page:list>
+</div>

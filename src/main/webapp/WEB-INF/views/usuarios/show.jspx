@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/jquery/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ar_edu_um_programacion2_ejemploprog2_model_Usuario" object="${usuario}" path="/usuarios" z="IE83ZC3ONXrQoc8Vo2jVKSE6pNo=">
+        <field:display field="username" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_username" object="${usuario}" z="9tO8W9/QVRE/qitRqbrnS00Cm+E="/>
+        <field:display field="password" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_password" object="${usuario}" z="YkgMwese5QjBM0YoCcJoZ1jwZ6Q="/>
+        <field:display field="id_rol" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_rol" object="${usuario}" z="i93GvbF+1tqKbpLf4LuzfTO2sJY="/>
+        <field:display field="passwordEncoder" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_passwordEncoder" object="${usuario}" z="eEtS6mUcoz9aLiX4RuAWD3GsCiM="/>
+        <field:display field="id_estado" id="s_ar_edu_um_programacion2_ejemploprog2_model_Usuario_id_estado" object="${usuario}" z="vJfxvvzN5Se1NLeYKHDA9+mfLrQ="/>
+    </page:show>
+</div>
